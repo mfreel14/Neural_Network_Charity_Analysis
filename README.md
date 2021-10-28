@@ -52,17 +52,12 @@
 
 ### What steps did you take to try and increase model performance?
 
--  Attempt #1:  An additional variable was removed from the data set, "SPECIAL_CONSIDERATIONS"
--  
+-  Attempt #1:  An additional variable was removed from the data set, "SPECIAL_CONSIDERATIONS" 
 -  Attempt #2:  Adjusted the amount of neurons and layers.  The neurons on the first layer were adjusted to 100, the second layer 50 and an added third layer with 25.  The third hidden layer was added with an activation of "relu"
--  
 -  Attempt #3:  The output layer was changed from "sigmoid" to "tanh".
-
-
-
 
 ## Neural Network Charity Analysis - Summary
 
+The deep learning model failed to reach its target accuracy at 75%.  The attempts to optimize the model also failed to reach the target of 75%.  THe combined attempts to optimize only slightly improved upon the accuracy of the original model, increasing from 72.5% to 72.8%.  
 
-
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The variables we're working with could be researched further.  For example the ASK_AMT has 8,747 unique values.  It could be possible to dig deeper into these amounts and create bins for ranges.  This would decrease the amount of unique values and may improve the overall accuracy of the model as well.
