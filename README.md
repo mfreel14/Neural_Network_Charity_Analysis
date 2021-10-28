@@ -1,14 +1,20 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
+
+## Project Overview - Neural Network Charity Analysis
+
+
+## Resources
+-  Data Files: charity_data.csv
+
+-  Software/Languages:  Python, Pandas  
 
 
 
+# Challenge Summary
 
+## (Project Name) - Results
 
-The report should contain the following:
-
-Overview of the analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images to support your answers, address the following questions.
+Results: Using bulleted lists and images to support your answers, address the following questions. 
 
 Data Preprocessing
 What variable(s) are considered the target(s) for your model?
@@ -18,4 +24,12 @@ Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
+
+
+
+
+## (Project Name) - Summary
+
+
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
