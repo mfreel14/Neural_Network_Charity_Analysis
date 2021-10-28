@@ -6,7 +6,7 @@
 ## Resources
 -  Data Files: charity_data.csv
 
--  Software/Languages:  Python, Pandas  
+-  Software/Languages:  Python 3.7.10, Pandas 1.2.4, 
 
 
 
