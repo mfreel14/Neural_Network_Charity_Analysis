@@ -39,14 +39,29 @@
 
 ### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
+-  There are two hidden node layers with 80 input//neurons in the first layer with the second smaller layer containing 30 input/neurons.  The neural network model contains 2 hidden layers and an output layer each with activation functions: "relu" / "relu" and "sigmoid".
+
+![Screen Shot 2021-10-28 at 1 08 33 PM](https://user-images.githubusercontent.com/691355/139328011-7fa9cf43-95a0-47b4-9800-35f32fa09744.png)
+
 ### Were you able to achieve the target model performance?
+
+-  The original models performance fell short of the 75% target.  The accuracy recorded was 72.5% with a loss of 55.9%.
+
+![Screen Shot 2021-10-28 at 1 11 20 PM](https://user-images.githubusercontent.com/691355/139328371-54a6860f-40d9-4edd-bf4b-3d49ee0e5aa8.png)
+
 
 ### What steps did you take to try and increase model performance?
 
+-  Attempt #1:  An additional variable was removed from the data set, "SPECIAL_CONSIDERATIONS"
+-  
+-  Attempt #2:  Adjusted the amount of neurons and layers.  The neurons on the first layer were adjusted to 100, the second layer 50 and an added third layer with 25.  The third hidden layer was added with an activation of "relu"
+-  
+-  Attempt #3:  The output layer was changed from "sigmoid" to "tanh".
 
 
 
-## (Project Name) - Summary
+
+## Neural Network Charity Analysis - Summary
 
 
 
